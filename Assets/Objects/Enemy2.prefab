@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2733073581259038371}
   - component: {fileID: 2733073581259038368}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Enemy2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2733073581259038374}
   m_LocalRotation: {x: -0, y: -0, z: 0.24289839, w: 0.97005177}
-  m_LocalPosition: {x: 7, y: 3.42, z: 0.09801241}
+  m_LocalPosition: {x: 10.74, y: -5.64, z: 0.09801241}
   m_LocalScale: {x: 0.3574, y: 0.3574, z: 0.3574}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_Sprite: {fileID: 21300000, guid: 1a10366be01309e4d88fa641d76ce0f7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
-  m_FlipY: 0
+  m_FlipY: 1
   m_DrawMode: 0
   m_Size: {x: 12.8, y: 7.2}
   m_AdaptiveModeThreshold: 0.5
