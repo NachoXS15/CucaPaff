@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 2733073581259038368}
   - component: {fileID: 2733073581259038375}
   - component: {fileID: 2733073581259038370}
+  - component: {fileID: 1457374284356613096}
   m_Layer: 0
   m_Name: Enemy1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -517,3 +518,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   speed: 0.1
+--- !u!114 &1457374284356613096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2733073581259038374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4642818fe293708459eb122c96733623, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  smashEffect: {fileID: 6491442808787902334, guid: 45a963020b030c04fb200d2c155053d0, type: 3}
