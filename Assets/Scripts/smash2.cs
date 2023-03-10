@@ -12,7 +12,6 @@ public class smash2 : MonoBehaviour
             Instantiate(smashEffect, transform.position, Quaternion.identity);
             isDestroyed = true;
             playerManager.isGameOver = true;
-            Debug.Log("destroyed");
         }
     }
 }

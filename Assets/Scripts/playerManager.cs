@@ -11,7 +11,6 @@ public class playerManager : MonoBehaviour
     private void Awake(){
         isGameOver = false;
     }
-
     void Update()
     {
         if (isGameOver)

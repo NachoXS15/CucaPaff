@@ -10,7 +10,6 @@ public class spawnEnemy : MonoBehaviour {
     private void Start() {
         StartCoroutine(Spawner());
     }
-
     private IEnumerator Spawner() {
         WaitForSeconds wait = new WaitForSeconds(spawnRate);
         while (!smash2.isDestroyed){

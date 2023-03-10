@@ -531,5 +531,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   smashEffect: {fileID: 6491442808787902334, guid: 45a963020b030c04fb200d2c155053d0, type: 3}
-  countPoints: 100
-  points: {fileID: 0}
