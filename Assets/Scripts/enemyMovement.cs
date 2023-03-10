@@ -9,7 +9,6 @@ public class enemyMovement : MonoBehaviour
     public Transform target;
     public float speed;
 
-    // Update is called once per frame
     private void FixedUpdate(){
         if (!smash2.isDestroyed){
             target = GameObject.FindGameObjectWithTag("Player").transform;
