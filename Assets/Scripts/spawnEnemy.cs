@@ -14,7 +14,7 @@ public class spawnEnemy : MonoBehaviour {
 
     private IEnumerator Spawner() {
         WaitForSeconds wait = new WaitForSeconds(spawnRate);
-        while (canSpawn){
+        while (canSpawn && !smash2.isDestroyed){
             yield return wait;
             int random = Random.Range(0, enemyPrefabs.Length);
             GameObject enemyToSpawn =  enemyPrefabs[random];
