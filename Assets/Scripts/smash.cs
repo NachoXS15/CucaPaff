@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class smash : MonoBehaviour
 {
-    public GameObject smashEffect;
+    [SerializeField] public GameObject smashEffect;
     void OnMouseDown(){
         Destroy(gameObject);
         Instantiate(smashEffect, transform.position, Quaternion.identity);

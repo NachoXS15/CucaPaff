@@ -8,10 +8,7 @@ public class enemyMovement : MonoBehaviour
     //parameters
     public Transform target;
     public float speed;
-    void Start()
-    {
 
-    }
     // Update is called once per frame
     private void FixedUpdate(){
         if (!smash2.isDestroyed){
